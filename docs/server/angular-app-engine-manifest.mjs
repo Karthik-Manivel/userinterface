@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/userinterface',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },

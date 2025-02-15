@@ -2,13 +2,13 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/userinterface/',
+  baseHref: '/',
   locale: undefined,
   routes: undefined,
   entryPointToBrowserMapping: {},
   assets: {
-    'index.csr.html': {size: 511, hash: '29658821645e29706a0a6d4ef65aa3baae2b2edfb7a76e86a5c89ef9c2c1ee40', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1024, hash: 'fb2295d81bab0552a873fde355a2450543b39a816b518e1e372bae950ee72706', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 497, hash: '2190a4c266bb3ee59dae0cdb6747620fdfd64b408625cf34089f9abafe54e4e2', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1010, hash: '0d8411ab639ae156dff83b659859d878fe4767b678e0c761b6a230e7d41d319f', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
